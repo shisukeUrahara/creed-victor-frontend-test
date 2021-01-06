@@ -3,13 +3,16 @@
 1.) Clone the repo
 > git clone <repo url>
 
-2.) setup the local blockchain
+2.) install dependencies
+> npm install
+
+3.) setup the local blockchain
 > truffle develop
 
-3.) deploy the contracts
+4.) deploy the contracts
 > migrate --reset
 
-4.) start the frontend 
+5.) start the frontend 
 > npm start
 
 
